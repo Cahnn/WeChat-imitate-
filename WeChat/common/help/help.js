@@ -1,0 +1,27 @@
+export default [
+	{
+		txt:"为什么我的微信表情不会动？",
+		text:"可能是你自己的问题。",
+		show:false
+	},
+	{
+		txt:"什么是微信'状态'功能？",
+		text:"用简短的文字描述自己当前的状态。",
+		show:false
+	},
+	{
+		txt:"发送朋友圈失败怎么办？",
+		text:"再发一遍。",
+		show:false
+	},
+	{
+		txt:"微信聊天消息怎么撤回？",
+		text:"长按已发送消息->选择【撤回】。",
+		show:false
+	},
+	{
+		txt:"为什么我找不到微信实时对讲功能？",
+		text:"再找找。",
+		show:false
+	}
+]

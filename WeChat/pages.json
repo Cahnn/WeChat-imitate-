@@ -1,0 +1,124 @@
+{
+	"pages": [ 
+	    {
+            "path" : "pages/wx/wx",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "WeChat",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/friend/friend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "通讯录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/discover/discover",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发现",
+                "enablePullDownRefresh": true,
+				"app-plus" : {
+				    "bounce" : "none",
+				    "titleNView" : {
+				        "type" : "transparent",
+				        "buttons" : [
+				            {
+				                "background" : "rgba(255,255,255,0.2)",
+				                "color" : "#696969",
+				                "type" : "none",
+				                "fontSrc" : "/static/fonts/iconfont.ttf",
+				                "text" : "\ue608" //小相机
+				            }
+				        ]
+				    }
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/friend/addFriend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加好友",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/helpCenter/helpCenter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "帮助中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/publish/publish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/retroaction",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "建议反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		    "color": "#7A7E83",
+		    "selectedColor": "#DE3F2B",
+		    "borderStyle": "black",
+		    "backgroundColor": "#ffffff",
+		    "list": [{
+		        "pagePath": "pages/wx/wx",
+		        "iconPath": "/static/icon/wechat.png",
+		        "selectedIconPath": "static/selectedIcon/wechatFill.png",
+		        "text": "WeChat"
+		    }, {
+		        "pagePath": "pages/friend/friend",
+		        "iconPath": "/static/icon/addrList.png",
+		        "selectedIconPath": "static/selectedIcon/addrListFill.png",
+		        "text": "通讯录"
+		    }, {
+		        "pagePath": "pages/discover/discover",
+		        "iconPath": "/static/icon/log.png",
+		        "selectedIconPath": "static/selectedIcon/logFill.png",
+		        "text": "发现"
+		    }, {
+		        "pagePath": "pages/mine/mine",
+		        "iconPath": "/static/icon/mine.png",
+		        "selectedIconPath": "static/selectedIcon/mineFill.png",
+		        "text": "我"
+		    }]
+		}
+
+}
